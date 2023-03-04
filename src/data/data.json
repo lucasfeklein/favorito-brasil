@@ -1,0 +1,174 @@
+{
+  "Header": {
+    "title": "Favorito Brasil",
+    "paragraph": "Qualidade e credibilidade, essa é a nossa marca."
+  },
+  "About": {
+    "paragraph": "A FAVORITO BRASIL é uma empresa voltada à importação e comercialização de produtos em geral, com predominância em gêneros alimentícios. A empresa tem sede em Itajaí (SC). O principal produto é o fermento biológico instantâneo seco, importado da China e embalado em nossa marca: FERMENTO FAVORITO . Nosso produto é de excelente qualidade, com preço competitivo e testado e aprovado pelos clientes de todo o Brasil. Temos, como fundamentos básicos, a busca constante da excelência no atendimento. Primamos pela seriedade nas negociações, estreitamento no relacionamento e aprimoramento dos processos, na busca da satisfação total de nossos parceiros e, principalmente, do consumidor final. Venha ser nosso parceiro! Produto de excelente qualidade, apresentação e com preço competitivo!",
+    "Why": [
+      "Fermento de alta qualidade",
+      "Entrega rápida",
+      "Preço competitivo",
+      "Pagamento flexível"
+    ],
+    "Why2": [
+      "Serviço ao cliente excepcional",
+      "Excelente reputação no mercado",
+      "Atuação em todo Brasil",
+      "Alta adaptabilidade ao mercado"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Ricardo Klein",
+      "job": "Sócio"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Eduardo Dutra",
+      "job": "Sócio"
+    }
+  ],
+  "Contact": {
+    "address": "Rua Dr. Nereu Ramos, 64 Sala 11. Bairro Centro, Itajaí - SC CEP: 88301-215",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-bread-slice",
+      "title": "Fermento biológico instantâneo seco",
+      "text": "É uma forma desidratada de levedura que pode ser adicionada diretamente na massa e ativada quando misturada. É uma opção popular para padeiros devido à facilidade de armazenamento e ativação rápida."
+    },
+    {
+      "icon": "fa fa-boxes-stacked",
+      "title": "Variedade",
+      "text": "Atuamos com fermento de massa doce e salgada embalado em caixas de 10kg contendo 20 pacotes a vácuo de 500g ."
+    },
+    {
+      "icon": "fa fa-circle-check",
+      "title": "Benefícios",
+      "text": "Redução de custos de até 50%, validade de 2 anos, fácil armazenagem, não necessita refrigeração e receitas mais saborosas."
+    },
+    {
+      "icon": "fa fa-money-bill",
+      "title": "Economize até 50%",
+      "text": "Utilizando o fermento Favorito você usará 1/3 da quantidade que utilizaria de fermento fresco."
+    }
+  ]
+}
