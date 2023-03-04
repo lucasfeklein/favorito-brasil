@@ -112,7 +112,7 @@ export const Contact = (props) => {
                   <i className="fa fa-phone"></i> Telefone
                 </span>{" "}
                 <p className="contact-info">+55 (51) 3342-0475 - Fixo</p>
-                <p className="contact-info">+55 (51) 99269.7105 - Claro</p>
+                <p className="contact-info">+55 (51) 9 9269-7105 - Claro</p>
               </p>
             </div>
             <div className="contact-item">
