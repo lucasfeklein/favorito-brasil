@@ -7,7 +7,7 @@ export const Team = (props) => {
         <div className="section-title">
           <h2>Conheça o time</h2>
           <p>
-            A Favorito Brasil é uma empresa composta por apenas duas pessoas que estão empenhadas no constate aprimoramento do negócio.
+            A Favorito Brasil é uma empresa composta por apenas duas pessoas que estão empenhadas no constante aprimoramento do negócio.
           </p>
         </div>
         <div id="row" className="center-images">
