@@ -134,7 +134,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%);
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -158,7 +158,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%) !important;
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -191,7 +191,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #FFFF00 0%, #C62925 100%);
+  background: linear-gradient(to right, #DC7E7C 0%, #C62925 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -207,8 +207,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #FFFF00;
-  background-image: linear-gradient(to right, #FFFF00 0%, #C62925 100%);
+  background-color: #DC7E7C;
+  background-image: linear-gradient(to right, #DC7E7C 0%, #C62925 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -277,7 +277,7 @@ a:focus,
 
 .intro h1 span {
   font-weight: 800;
-  color: #FFFF00;
+  color: #DC7E7C;
 }
 
 .intro p {
@@ -298,6 +298,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 90px 0 40px;
 }
 
 #features i.fa {
@@ -309,7 +310,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%);
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -332,7 +333,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #FFFF00 0%, #C62925 100%);
+  background: linear-gradient(to right, #DC7E7C 0%, #C62925 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -349,18 +350,22 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #FFFF00;
+  color: #DC7E7C;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
 }
 
 #about img {
-  width: 520px;
+  width: 240px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
+#about-img-container {
+  display: flex;
+  justify-content: center;
 }
 
 #about p {
@@ -371,7 +376,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%);
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%);
   color: #fff;
 }
 
@@ -399,7 +404,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%);
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -424,15 +429,38 @@ header .intro-text {
   padding: 100px 0;
 }
 
-.portfolio-item {
+/* .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
-}
+} */
 
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item img {
+  flex: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 378px;
+  height: 252px;
 }
 
 .hover-bg .hover-text {
@@ -553,7 +581,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #C62925 0%, #FFFF00 100%);
+  background: linear-gradient(to right, #C62925 0%, #DC7E7C 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 
