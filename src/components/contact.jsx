@@ -5,9 +5,11 @@ const initialState = {
   name: "",
   email: "",
   message: "",
+  cnpj: "",
+  empresa: ""
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, cnpj, empresa }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +19,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    console.log(name, email, message, cnpj, empresa);
     emailjs
       .sendForm("service_kcvyuka", "template_pynxes6", e.target, "sgRvoeriyKLEu79x-")
       .then(
@@ -43,7 +45,7 @@ export const Contact = (props) => {
                   Por favor preencha o formulário abaixo e entraremos em contato assim que possível.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -52,7 +54,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nome"
                         required
                         onChange={handleChange}
                       />
@@ -73,6 +75,32 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="cnpj"
+                        name="cnpj"
+                        className="form-control"
+                        placeholder="CNPJ (opcional)"
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="empresa"
+                        name="empresa"
+                        className="form-control"
+                        placeholder="Nome da empresa (opcional)"
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
                 </div>
                 <div className="form-group">
                   <textarea
@@ -80,7 +108,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensagem"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -96,33 +124,33 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Informações para contato</h3>
-              <p>
-                <span>
+              <span>
+                <span className="bold-text">
                   <i className="fa fa-map-marker"></i> Endereço
                 </span>
                 <p className="contact-info">Rua Dr. Nereu Ramos, 64 Sala 11</p>
                 <p className="contact-info">Bairro Centro</p>
                 <p className="contact-info">Itajaí - SC</p>
                 <p className="contact-info">CEP: 88301-215</p>
-              </p>
+              </span>
             </div>
             <div className="contact-item">
-              <p>
-                <span>
+              <span>
+                <span className="bold-text">
                   <i className="fa fa-phone"></i> Telefone
                 </span>{" "}
                 <p className="contact-info">+55 (51) 3342-0475 - Fixo</p>
                 <p className="contact-info">+55 (51) 9 9269-7105 - Claro</p>
-              </p>
+              </span>
             </div>
             <div className="contact-item">
-              <p>
-                <span>
+              <span>
+                <span className="bold-text">
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 <p className="contact-info">favorito@favoritobrasil.com.br</p>
                 <p className="contact-info">ricardo@favoritobrasil.com.br</p>
-              </p>
+              </span>
             </div>
           </div>
         </div>
