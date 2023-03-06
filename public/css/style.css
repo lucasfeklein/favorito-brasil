@@ -318,6 +318,23 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-size {
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .feature-size {
+    width: 200px;
+  }
+}
+
 /* About Section */
 #about {
   padding: 100px 0;

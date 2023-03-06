@@ -4,13 +4,13 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="section-title">
           <h2>Produto</h2>
         </div>
-        <div className="row">
+        <div className="feature-container">
           {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+              <div key={`${d.title}-${i}`} className="feature-size">
                 {" "}
                 <i className={d.icon}></i>
                 <h3>{d.title}</h3>
