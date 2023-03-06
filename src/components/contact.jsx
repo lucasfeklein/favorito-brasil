@@ -9,7 +9,7 @@ const initialState = {
   empresa: ""
 };
 export const Contact = (props) => {
-  const [{ name, email, message, cnpj, empresa }, setState] = useState(initialState);
+  const [{ name, email, message, cnpj, phone }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,7 +19,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message, cnpj, empresa);
+    console.log(name, email, message, cnpj, phone);
     emailjs
       .sendForm("service_kcvyuka", "template_pynxes6", e.target, "sgRvoeriyKLEu79x-")
       .then(
@@ -92,10 +92,10 @@ export const Contact = (props) => {
                     <div className="form-group">
                       <input
                         type="text"
-                        id="empresa"
-                        name="empresa"
+                        id="phone"
+                        name="phone"
                         className="form-control"
-                        placeholder="Nome da empresa (opcional)"
+                        placeholder="Telefone (opcional)"
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
