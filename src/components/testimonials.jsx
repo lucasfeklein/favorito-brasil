@@ -10,7 +10,7 @@ export const Testimonials = (props) => {
           <a href="#contact">Entre em contato conosco e atenda a sua região!</a>
         </div>
         <div style={{ textAlign: "center" }}>
-          <img src="../../img/map-favorito.jpg" alt="mapa atuação fermento favorito brasil" style={{ width: "400px" }} />
+          <img src="../../img/map-favorito.png" alt="mapa atuação fermento favorito brasil" style={{ width: "400px" }} />
         </div>
 
         {/* <div className="row">
