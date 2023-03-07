@@ -54,7 +54,7 @@ export const Services = (props) => {
               <p>1- Misturar o Fermento Favorito a 800g de farinha.</p>
               <p>2- Bata os demais ingredientes no liquidificador.</p>
               <p>3- Coloque a farinha, já misturada com o fermento, em uma bacia. Faça um buraco no meio e acrescente devagar a mistura batida no liquidificador.</p>
-              <p>4- À mão misture bem a massa até começar a soltar. Caso necessário, acrescente mais farinha.</p>
+              <p>4- À mão, misture bem a massa até começar a soltar. Caso necessário, acrescente mais farinha.</p>
               <p>5- Depois de pronta, tampe com filme, enrole em um cobertor e aguarde dobrar de volume.</p>
               <p>6- Abra a massa e corte em pedaços grandes.</p>
               <p>7- Molde em forma de pão ou no formato que desejar e coloque para assar em forno pré aquecido a 200 graus, por aproximadamente 30 minutos.</p>
