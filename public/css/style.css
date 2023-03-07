@@ -631,6 +631,13 @@ table tbody td {
   color: #666;
 }
 
+#testimonials a {
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
 /* Team Section */
 #team {
   padding: 100px 0;
