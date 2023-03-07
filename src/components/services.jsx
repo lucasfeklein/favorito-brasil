@@ -53,7 +53,7 @@ export const Services = (props) => {
             <div className="prepare-container">
               <p>1- Misturar o Fermento Favorito a 800g de farinha.</p>
               <p>2- Bata os demais ingredientes no liquidificador.</p>
-              <p>3- Coloque a farinha, já misturada com o fermento, em uma bacia. Faça um buraco no meio e acrescente devagar a mistura batida no liquidificador.</p>
+              <p>3- Coloque a farinha, já misturada com o Fermento Favorito, em uma bacia. Faça um buraco no meio e acrescente devagar a mistura batida no liquidificador.</p>
               <p>4- À mão, misture bem a massa até começar a soltar. Caso necessário, acrescente mais farinha.</p>
               <p>5- Depois de pronta, tampe com filme, enrole em um cobertor e aguarde dobrar de volume.</p>
               <p>6- Abra a massa e corte em pedaços grandes.</p>
@@ -66,7 +66,7 @@ export const Services = (props) => {
             <Table data={data3} />
             <h3>MODO DE PREPARO:</h3>
             <div className="prepare-container">
-              <p>1- Levar a farinha para a masseira, juntar o fermento e deixe misturar por alguns segundos.</p>
+              <p>1- Levar a farinha para a masseira, juntar o Fermento Favorito e deixe misturar por alguns segundos.</p>
               <p>2- Colocar os demais ingredientes e deixar misturar em baixa velocidade, até homogeneizar bem.</p>
               <p>3- Deixar misturar em velocidade rápida até obter uma massa lisa e enxuta.</p>
               <p>4- Levar a massa para a mesa, dividir no tamanho desejado, modelar em formatos característicos de hamburguer ou hot-dog, arrumar em assadeiras padrão e deixar descansar até o ponto de forno, em torno de 80 minutos, dependendo da temperatura ambiente.</p>
@@ -79,7 +79,7 @@ export const Services = (props) => {
             <Table data={data3} />
             <h3>MODO DE PREPARO:</h3>
             <div className="prepare-container">
-              <p>1- Levar a farinha para a masseira, juntar o fermento e misturar por alguns segundos.</p>
+              <p>1- Levar a farinha para a masseira, juntar o Fermento Favorito e misturar por alguns segundos.</p>
               <p>2- Colocar os demais ingredientes e misturar em baixa velocidade, até homogeneizar bem.</p>
               <p>3- Deixar misturar em velocidade rápida, até obter uma massa lisa e enxuta.</p>
               <p>4- Levar a massa para a mesa. Dividir em unidades de 550 gramas, modelar em bastões e colocar nas formas previamente preparadas.</p>
