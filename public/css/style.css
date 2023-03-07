@@ -361,6 +361,10 @@ header .intro-text {
   left: 0;
 }
 
+.about-text {
+  text-align: justify;
+}
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -470,7 +474,7 @@ header .intro-text {
 .prepare-container {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: justify;
 }
 
 table {
