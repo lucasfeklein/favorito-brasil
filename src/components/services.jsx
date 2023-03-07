@@ -24,7 +24,7 @@ export const Services = (props) => {
               <p>3- Deixar a massa descansar em bloco, por 30 minutos.</p>
               <p>4- Dividir a massa nos tamanhos desejados, rechear e modelar a gosto.</p>
               <p>5- Colocar em assadeiras apropriadas, meio crescimento pintar com ovos e colocar as coberturas.</p>
-              <p>6- Deixar completar o crescimento e levar ao forno em temperatura média (cerca de 170 °C), por aproximadamente 10 á 15 minutos, dependendo do tamanho das unidades.</p>
+              <p>6- Deixar completar o crescimento e levar ao forno em temperatura média (cerca de 170 °C), por aproximadamente 10 a 15 minutos, dependendo do tamanho das unidades.</p>
             </div>
           </div>
           <div className="recipe">
@@ -35,7 +35,7 @@ export const Services = (props) => {
             <div className="prepare-container">
               <p>1- Misturar o Fermento Favorito à farinha.</p>
               <p>2- Misturar os demais ingredientes.</p>
-              <p>3- Sove a massa até ficar lisa, amasse e levante, empurrando a massa oara frente com a palma da mão e dobrando-a sobre si mesma.</p>
+              <p>3- Sove a massa até ficar lisa, amasse e levante, empurrando a massa para frente com a palma da mão e dobrando-a sobre si mesma.</p>
               <p>4- A massa não deve grudar nas mãos.</p>
               <p>5- Corte pequenas porções de massa.</p>
               <p>6- Cubra a massa e deixe descansar por um período de 30 a 40 minutos.</p>
