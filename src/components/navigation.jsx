@@ -54,11 +54,6 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Time
-              </a>
-            </li>
-            <li>
               <a href="#contact" className="page-scroll">
                 Contato
               </a>

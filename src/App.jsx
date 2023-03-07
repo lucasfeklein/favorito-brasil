@@ -8,7 +8,6 @@ import { Gallery } from "./components/gallery";
 import { Header } from "./components/header";
 import { Navigation } from "./components/navigation";
 import { Services } from "./components/services";
-import { Team } from "./components/Team";
 import { Testimonials } from "./components/testimonials";
 import JsonData from "./data/data.json";
 
@@ -32,7 +31,6 @@ const App = () => {
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
   );
