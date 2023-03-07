@@ -19,11 +19,12 @@ export const Services = (props) => {
             <Table data={data} />
             <h3>MODO DE PREPARO:</h3>
             <div className="prepare-container">
-              <p>1- Levar todos os ingrediente para a masseira e misturar bem, até que a massa se apresente lisa e enxuta.</p>
-              <p>2- Deixar a massa descansar em bloco por 30 minutos.</p>
-              <p>3- Dividir a massa nos tamanhos desejados, rechear e modelar a gosto.</p>
-              <p>4- Colocar em assadeiras apropriadas, meio crescimento pintar com ovos e colocar as coberturas.</p>
-              <p>5- Deixar completar o crescimento e levar ao forno em temperatura média (cerca de 170 °C) por aproximadamente 10 á 15 minutos, dependendo do tamanho das unidades.</p>
+              <p>1- Misturar o Fermento Favorito à farinha.</p>
+              <p>2- Levar todos os ingrediente para a masseira e misturar bem, até que a massa se apresente lisa e enxuta.</p>
+              <p>3- Deixar a massa descansar em bloco por 30 minutos.</p>
+              <p>4- Dividir a massa nos tamanhos desejados, rechear e modelar a gosto.</p>
+              <p>5- Colocar em assadeiras apropriadas, meio crescimento pintar com ovos e colocar as coberturas.</p>
+              <p>6- Deixar completar o crescimento e levar ao forno em temperatura média (cerca de 170 °C) por aproximadamente 10 á 15 minutos, dependendo do tamanho das unidades.</p>
             </div>
           </div>
           <div className="recipe">
@@ -50,12 +51,13 @@ export const Services = (props) => {
             <Table data={data2} />
             <h3>MODO DE PREPARO:</h3>
             <div className="prepare-container">
-              <p>1- Bata todos os ingredientes menos a farinha, no liquidificador.</p>
-              <p>2- Em uma bacia coloque aproximadamente 800 g de farinha de trigo. Faça um buraco no meio e acrescente, devagar, a mistura batida no liquidificador.</p>
-              <p>3- À mão misture bem a massa até começar a soltar. Caso necessário, acrescente mais farinha.</p>
-              <p>4- Depois de pronta, tampe com filme, enrole em um cobertor e aguarde dobrar de volume.</p>
-              <p>5- Abra a massa e corte em pedaços grandes.</p>
-              <p>6- Molde em forma de pão ou no formato que desejar e coloque para assar em forno pré aquecido a 200 graus, por aproximadamente 30 minutos.</p>
+              <p>1- Misturar o Fermento Favorito a 800g de farinha.</p>
+              <p>2- Bata todos os ingredientes menos a farinha no liquidificador.</p>
+              <p>3- Coloque a farinha, já misturada com o fermento, em uma bacia. Faça um buraco no meio e acrescente devagar a mistura batida no liquidificador.</p>
+              <p>4- À mão misture bem a massa até começar a soltar. Caso necessário, acrescente mais farinha.</p>
+              <p>5- Depois de pronta, tampe com filme, enrole em um cobertor e aguarde dobrar de volume.</p>
+              <p>6- Abra a massa e corte em pedaços grandes.</p>
+              <p>7- Molde em forma de pão ou no formato que desejar e coloque para assar em forno pré aquecido a 200 graus, por aproximadamente 30 minutos.</p>
             </div>
           </div>
           <div className="recipe">
