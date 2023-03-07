@@ -467,6 +467,12 @@ header .intro-text {
   margin-bottom: 10px;
 }
 
+.prepare-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
