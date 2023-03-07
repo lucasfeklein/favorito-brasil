@@ -6,7 +6,7 @@ export const Testimonials = (props) => {
       <div className="container">
         <div className="section-title text-center">
           <h2>Área de Atuação</h2>
-          <p>A Favorito Brasil possui um depósito localizado em Guarulhos (SP). Com essa estrutura logística, a empresa é capaz de distribuir seus produtos em todo Brasil com rapidez e eficiência. <span className="bold-text">Buscamos parceiros em todas as regiões do Brasil.</span></p>
+          <p>A Favorito Brasil possui um Centro de Distribuição localizado em Guarulhos (SP). Com essa estrutura logística, a empresa é capaz de distribuir seus produtos em todo Brasil com rapidez e eficiência. <span className="bold-text">Buscamos parceiros em todas as regiões do Brasil.</span></p>
           <a href="#contact">Entre em contato conosco e atenda a sua região!</a>
         </div>
         <div style={{ textAlign: "center" }}>
