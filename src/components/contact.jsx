@@ -42,7 +42,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Entre em contato</h2>
                 <p>
-                  Por favor preencha o formulário abaixo e entraremos em contato assim que possível.
+                  Por favor, preencha o formulário abaixo e entraremos em contato, assim que possível.
                 </p>
               </div>
               <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
