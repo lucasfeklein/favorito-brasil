@@ -486,13 +486,13 @@ table th,
 table td {
   border: none;
   padding: 12px;
+  text-align: left;
 }
 
 table th {
   background-color: #c0a4a4;
   color: #333;
   font-weight: bold;
-  text-align: left;
   text-transform: uppercase;
 }
 
@@ -508,6 +508,7 @@ table tbody tr:hover {
 
 table tbody td {
   color: white;
+
 }
 
 /* Portfolio Section */
