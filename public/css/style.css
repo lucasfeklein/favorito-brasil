@@ -643,6 +643,10 @@ table tbody td {
   font-size: 18px;
 }
 
+.map-img {
+  width: 400px;
+}
+
 /* Team Section */
 #team {
   padding: 100px 0;
