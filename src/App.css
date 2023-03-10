@@ -1,19 +1,22 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    box-sizing: border-box;
   }
 
+  #header,
   #about,
   #services,
   #testimonials,
   #team,
   #contact,
   #footer {
-    width: 111%;
+    box-sizing: border-box;
   }
 
-  #portfolio {
-    width: 100%;
+  body,
+  html {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
